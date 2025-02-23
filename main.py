@@ -1,12 +1,13 @@
 import customtkinter as ctk
-from logic import *
-from download import setFileframe,downfiles
+from menu import *
+from fileHandler import setFileframe,downfiles, refreshFilelog
 import os
 
 
 
 def Setup(root, name: str, resizable):
     #Basic
+    refreshFilelog()
     windowScaleX,windowScaleY=SettingsReadResolution()
     root.geometry(f"{windowScaleX}x{windowScaleY}")
     SettingsReadMode()

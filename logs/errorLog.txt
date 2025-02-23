@@ -1,2 +1,2 @@
-error: bad row value "-1": must be a non-negative integer | time: 2025-02-23 15:44:50 
-error: bad row value "-1": must be a non-negative integer | time: 2025-02-23 15:49:14 
+error: [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden | time: 2025-02-23 18:57:50 
+error: [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden | time: 2025-02-23 18:58:19 
