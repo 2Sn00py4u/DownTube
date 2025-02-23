@@ -1,0 +1,1 @@
+Darkmode=True;Resolution=1200x700;
